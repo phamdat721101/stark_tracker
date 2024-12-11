@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "TrackIt",
-  description: "TrackIt app",
+  title: "StarkTracker",
+  description: "StarkTracker app",
 };
 
 export default function RootLayout({

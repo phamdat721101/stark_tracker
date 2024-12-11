@@ -46,8 +46,8 @@ export default function Header() {
       <div className="mx-auto px-5 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center text-white">
-          <Image src={"/logo.png"} alt="trackit" height={40} width={40} />
-          <span className="font-bold text-2xl leading-10">TrackIt</span>
+          <Image src={"/logo.png"} alt="StarkTracker" height={40} width={40} />
+          <span className="font-bold text-2xl leading-10">StarkTracker</span>
         </Link>
 
         {/* Mobile menu */}
@@ -92,7 +92,7 @@ export default function Header() {
                     <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
                     <Input
                       id="search"
-                      placeholder="Search with TrackIt"
+                      placeholder="Search with StarkTracker"
                       className="pl-8"
                       ref={inputRef}
                     />
@@ -112,7 +112,7 @@ export default function Header() {
             <Input
               ref={inputRef}
               id="search"
-              placeholder="Search with TrackIt"
+              placeholder="Search with StarkTracker"
               className="pl-8 w-[300px]"
             />
             <Input type="submit" value="Search" className="hidden" />
@@ -129,7 +129,7 @@ export default function Header() {
           </Select> */}
 
           <Image
-            src={"/movement-mark.svg"}
+            src={"/strk_logo.png"}
             alt={"movement logo"}
             width={24}
             height={24}

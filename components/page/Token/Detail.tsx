@@ -110,7 +110,7 @@ export default function Detail() {
       </Card>
 
       <Image
-        src={"/banner.png"}
+        src={"/strk_banner.png"}
         alt="banner"
         width="500"
         height="500"

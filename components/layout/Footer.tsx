@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-2 md:mb-0">
-            <span className="font-bold text-xl">TrackIt</span>
+            <span className="font-bold text-xl">StarkTracker</span>
           </div>
           <div className="flex space-x-6">
             <Link
